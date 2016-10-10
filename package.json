@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "It's a simple HTML5 + D3.js application for memorizing the cool people.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinsswei/flashcard-d3.git"
+  },
+  "keywords": [
+    "HTML5",
+    "D3.js",
+    "flashcard"
+  ],
+  "author": "Robinsswei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinsswei/flashcard-d3/issues"
+  },
+  "homepage": "https://github.com/robinsswei/flashcard-d3#readme",
+  "dependencies": {
+    "d3": "^4.2.6",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.1"
+  }
+}
