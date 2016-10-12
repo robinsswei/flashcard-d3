@@ -6,6 +6,17 @@
 
 /*global $*/
 $(function(){
-  
   console.log("window is ready");
+  
+  var dataset;
+  
+  /*global d3*/
+  d3.csv("../data/minions.csv", function(error, data){
+    if(error){
+      // error occurs
+    }else{
+      dataset = data;
+      console.log("data loaded");
+    }
+  })
 });
