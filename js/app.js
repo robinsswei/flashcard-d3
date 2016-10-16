@@ -18,5 +18,6 @@ $(function(){
       dataset = data;
       console.log("data loaded");
     }
-  })
+  });
+  
 });
